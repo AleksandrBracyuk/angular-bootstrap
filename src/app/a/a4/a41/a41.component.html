@@ -1,5 +1,7 @@
 <div class="typical-component-nn">
     <p>a41 works!</p>
+
+    <p>Collapse</p>
     <p>
         <button type="button" class="btn btn-outline-primary" (click)="isCollapsed = !isCollapsed"
             [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
@@ -13,4 +15,8 @@
             </div>
         </div>
     </div>
+
+    <p>Datepicker</p>
+    <ngb-datepicker #d></ngb-datepicker>
+
 </div>
