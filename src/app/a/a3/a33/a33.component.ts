@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
+import { Injectable, TemplateRef } from '@angular/core';
+
 
 @Component({
   selector: 'app-a33',
@@ -31,4 +33,12 @@ export class A33Component implements OnInit {
       return `with: ${reason}`;
     }
   }
+
+  // Toast
+  show = false;
+  autohide = true;
+
+  //Toast 2
+
+
 }
