@@ -1,10 +1,10 @@
 div {
-    width: 900px;
-    height:700px;
+    width: 1900px;
+    height:1200px;
     border: 1px solid grey;
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
 }

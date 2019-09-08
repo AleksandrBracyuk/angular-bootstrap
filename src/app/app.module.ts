@@ -9,7 +9,10 @@ import { A2Component } from './a2/a2.component';
 import { A21Component } from './a21/a21.component';
 import { A22Component } from './a22/a22.component';
 import { A23Component } from './a23/a23.component';
+
+import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 
 @NgModule({
   declarations: [
@@ -23,8 +26,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     A23Component
   ],
   imports: [
-    NgbModule,
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AComponent]

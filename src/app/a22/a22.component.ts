@@ -12,4 +12,10 @@ export class A22Component implements OnInit {
   ngOnInit() {
   }
 
+  model = {
+    left: true,
+    middle: false,
+    right: false
+  };
+
 }
