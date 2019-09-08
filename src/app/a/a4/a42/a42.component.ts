@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./a42.component.css']
 })
 export class A42Component implements OnInit {
-
+  page = 4;
   constructor() { }
 
   ngOnInit() {
