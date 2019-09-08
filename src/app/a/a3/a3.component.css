@@ -1,0 +1,9 @@
+div {
+    width: 1800px;
+    height:550px;
+    border: 1px solid grey;
+    background-color: lightpink;
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+}
